@@ -29,15 +29,20 @@ HTTP Method: GET
 Query Parameter:
 
 action: fetch_all (specifies the action to fetch all records)
+
 Response Details:
 
 Status Code: 200 OK (successful request)
+
 Response Time: 183 ms
+
 Response Size: 3.45 KB
 
 Contains a list of user records, each with the following fields:
 id: User ID
+
 first_name: First name of the user
+
 last_name: Last name of the user
 
 ---
@@ -52,8 +57,11 @@ HTTP Method: GET
 Query Parameters:
 
 q: Sibiu,SB,+40 (specifies the city)
+
 appid: 50d24195b608e449483cdef62c4cadc7 (API key)
+
 mode: json (response format)
+
 units: metric (units of measurement)
 
 ---
@@ -64,8 +72,11 @@ The uploaded image shows an API test conducted using Postman to obtain the weath
 API URL: http://api.openweathermap.org/data/2.5/forecast?q=Sibiu,SB,+40&appid=50d24195b608e449483cdef62c4cadc7
 
 q: Specifies the city for which the forecast is requested, in this case, "Sibiu, SB, +40".
+
 appid: The API key required for authentication and access to the weather data.
+
 HTTP Method: GET
+
 Query Parameters:
 
 q: Sibiu, SB, +40 - represents the city and its region code.
