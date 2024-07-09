@@ -14,6 +14,7 @@ HTTP Method: GET
 Query Parameters:
 
 q: Sibiu, SB, +40 - represents the city and its region code.
+
 appid: 50d24195b608e449483cdef62c4cadc7 - unique API access key.
 
 ---
@@ -68,6 +69,7 @@ HTTP Method: GET
 Query Parameters:
 
 q: Sibiu, SB, +40 - represents the city and its region code.
+
 appid: 50d24195b608e449483cdef62c4cadc7 - unique API access key.
 
 
