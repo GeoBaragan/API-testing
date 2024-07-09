@@ -15,6 +15,7 @@ Query Parameters:
 
 q: Sibiu, SB, +40 - represents the city and its region code.
 appid: 50d24195b608e449483cdef62c4cadc7 - unique API access key.
+
 ---
 ![API testing 3](https://github.com/GeoBaragan/API-testing/assets/167702080/054a527e-218b-430f-8c64-0c8618e8ec69)
 
@@ -37,6 +38,7 @@ Contains a list of user records, each with the following fields:
 id: User ID
 first_name: First name of the user
 last_name: Last name of the user
+
 ---
 ![API testing 2](https://github.com/GeoBaragan/API-testing/assets/167702080/2f580d36-72e4-47fb-819b-1ddf357c17f5)
 
@@ -52,6 +54,8 @@ q: Sibiu,SB,+40 (specifies the city)
 appid: 50d24195b608e449483cdef62c4cadc7 (API key)
 mode: json (response format)
 units: metric (units of measurement)
+
+---
 
 ![API testing 4](https://github.com/GeoBaragan/API-testing/assets/167702080/3d27b23f-e866-4b41-a7c8-9d00cc793fcf)
 The uploaded image shows an API test conducted using Postman to obtain the weather forecast for the city of Sibiu from OpenWeatherMap.
